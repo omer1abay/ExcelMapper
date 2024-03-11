@@ -41,7 +41,6 @@
             }
             catch (Exception)
             {
-
                 return Activator.CreateInstance<TDestination>();
             }
         }

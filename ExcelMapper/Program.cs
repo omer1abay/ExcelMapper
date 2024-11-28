@@ -1,7 +1,7 @@
 ﻿using ExcelMapper;
 using OfficeOpenXml;
 
-string path = @"C:\Users\Ömer Abay\OneDrive\Masaüstü\odev1.xlsx";
+string path = @"";
 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 using (var package = new ExcelPackage(new FileInfo(path)))
 {
